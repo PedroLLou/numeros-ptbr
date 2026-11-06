@@ -1,0 +1,46 @@
+{
+  "name": "numeros-ptbr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lists the numbers a Brazilian Portuguese text states (digits and spelled out, percent, R$, dates) and checks each against a facts manifest with sources. Text, SRT and word-timestamp input. No network, no runtime dependencies.",
+  "keywords": ["pt-br", "numbers", "provenance", "subtitles", "srt", "transcript", "lint"],
+  "license": "MIT",
+  "author": "Pedro Lourenconi Lima",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroLLou/numeros-ptbr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PedroLLou/numeros-ptbr/issues"
+  },
+  "homepage": "https://github.com/PedroLLou/numeros-ptbr#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "numeros-ptbr": "bin/numeros-ptbr.mjs"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.mts",
+      "default": "./src/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fixtures",
+    "README.md",
+    "README.pt-BR.md",
+    "LICENSE",
+    "PROVENANCE.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node bin/numeros-ptbr.mjs check fixtures/script-clean.txt --facts fixtures/facts.json",
+    "pack:dry": "npm pack --dry-run --ignore-scripts"
+  }
+}

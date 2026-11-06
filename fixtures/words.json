@@ -1,0 +1,20 @@
+{
+  "words": [
+    { "word": "O", "start": 0.0, "end": 0.1 },
+    { "word": "plano", "start": 0.1, "end": 0.5 },
+    { "word": "custa", "start": 0.5, "end": 0.9 },
+    { "word": "R$", "start": 0.9, "end": 1.2 },
+    { "word": "49,90", "start": 1.2, "end": 1.9 },
+    { "word": "e", "start": 2.0, "end": 2.1 },
+    { "word": "vinte", "start": 2.1, "end": 2.5 },
+    { "word": "por", "start": 2.5, "end": 2.7 },
+    { "word": "cento", "start": 2.7, "end": 3.0 },
+    { "word": "de", "start": 3.0, "end": 3.1 },
+    { "word": "desconto", "start": 3.1, "end": 3.6 },
+    { "word": "para", "start": 3.7, "end": 3.9 },
+    { "word": "trinta", "start": 3.9, "end": 4.3 },
+    { "word": "e", "start": 4.3, "end": 4.4 },
+    { "word": "cinco", "start": 4.4, "end": 4.8 },
+    { "word": "clientes.", "start": 4.8, "end": 5.4 }
+  ]
+}

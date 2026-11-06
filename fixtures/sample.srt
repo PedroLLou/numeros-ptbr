@@ -1,0 +1,12 @@
+1
+00:00:01,000 --> 00:00:03,500
+O plano custa R$ 49,90 por mês.
+
+2
+00:00:04,000 --> 00:00:07,200
+São <i>vinte por cento</i> de desconto
+e cento e cinquenta clientes.
+
+3
+00:01:10,500 --> 00:01:12,000
+Lançamos em cinco de março de 2026.

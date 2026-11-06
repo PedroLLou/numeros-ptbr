@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "facts": [
+    { "id": "plan-price", "value": "49.90", "unit": "BRL", "source": "https://example.com/pricing", "context": "Monthly plan, synthetic example." },
+    { "id": "annual-discount", "value": 20, "unit": "percent", "source": "pricing-page, section Annual plan (synthetic reference)" },
+    { "id": "team-size", "value": 120, "source": "internal headcount sheet, 2026-11 (synthetic reference)" },
+    { "id": "launch-date", "value": "2026-03-05", "unit": "date", "source": "https://example.com/news/launch" }
+  ],
+  "ignore": [
+    { "value": 2026, "reason": "The current year used as a label, not a claim." }
+  ]
+}
