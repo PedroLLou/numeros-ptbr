@@ -1,5 +1,7 @@
 # numeros-ptbr
 
+CI: [Node 22/24 on Linux and Windows](https://github.com/PedroLLou/numeros-ptbr/actions/workflows/ci.yml).
+
 Lists the numbers a Brazilian Portuguese text states, and checks that each one has a registered fact with a source. Input can be plain text or Markdown, an SRT subtitle file, or a speech-to-text word list with timestamps.
 
 It answers one question: **"is every number in this text backed by an entry in my facts file?"** For each number that is not, it prints the number, the line and column (or the cue / word and its start time), and the sentence around it.

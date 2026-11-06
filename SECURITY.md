@@ -37,7 +37,7 @@ The scanner is hand-written and linear in the input size, uses no large regular 
 
 - No fuzzing and no third-party audit. No production use so far.
 - Positions count UTF-16 code units. Look-alike (homoglyph) digits and letters are not detected; non-ASCII digits are not read as numbers.
-- Windows and Linux are the intended platforms. Behavior was exercised on Windows with Node 24 only; the CI matrix lists Node 22 and 24 on ubuntu and windows but a CI run has not been confirmed.
+- The CI matrix exercises Node 22 and 24 on Ubuntu and Windows. See the repository Actions page for the result of a particular commit. Local development was verified on Windows with Node 24.
 
 ## Reporting
 
